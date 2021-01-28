@@ -1,0 +1,28 @@
+#head{
+    color: white;
+}
+#heading{
+    background-color: red;
+    position: fixed;
+    width: 100%;
+}
+#background{
+    background-image: url("background.jpg");
+}
+canvas{
+    border:2px red solid;
+    animation-name: Example_1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes Example_1{
+    0% {box-shadow:1px 1px 40px red;} 
+    12.5% {box-shadow:1px 1px 40px orange;} 
+    25% {box-shadow:1px 1px 40px yellow;} 
+    37.5% {box-shadow:1px 1px 40px #47DB25;}
+    50% {box-shadow:1px 1px 40px rgb(67, 167, 201);}
+    62.5%{box-shadow:1px 1px 40px blue}
+    75%{box-shadow: 1px 1px 40px purple;}
+    87.5%{box-shadow: 1px 1px 40px rgb(196, 99, 191);}
+    100%{box-shadow: 1px 1px 40px rgb(255, 0, 140);}
+}
